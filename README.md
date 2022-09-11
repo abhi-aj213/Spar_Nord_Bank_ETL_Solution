@@ -1,10 +1,10 @@
 # Spar_Nord_Bank_ETL_Solution
 Batch Data Processing and ETL project using Apache Sqoop, Apache Spark, and Amazon Redshift
 
-Problem Statement
+# Problem Statement
 Spar Nord Bank is trying to observe the ATM withdrawal behavior and the corresponding dependent factors to optimally manage the refill frequency across Denmark. Apart from this, other insights also have to be drawn from the data.
 
-Broadly we will be performing the following tasks:
+# Broadly we will be performing the following tasks:
 Extracting the transactional data from a given MySQL RDS server to HDFS(EC2) instance using Sqoop.
 
 Transforming the transactional data according to the given target schema using PySpark.
@@ -17,7 +17,7 @@ Loading the data from Amazon S3 to Redshift tables.
 
 Performing the analysis queries.
 
-Analytics
+# Analytics
 Coming to the analysis part, we will carry out the calculations to perform the following analytical queries:
 
 Top 10 ATMs where most transactions are in the ’inactive’ state
